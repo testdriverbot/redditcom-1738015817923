@@ -1,0 +1,56 @@
+version: 4.1.43
+steps:
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+      - command: press-keys
+        keys:
+          - alt
+          - left
+  - prompt: Locate the "Contact Us" link on the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - alt
+          - left
+      - command: press-keys
+        keys:
+          - alt
+          - left
