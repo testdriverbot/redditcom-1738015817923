@@ -1,0 +1,80 @@
+version: 4.1.43
+steps:
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Log in
+        description: log in button on the restricted access page
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Username
+        description: username input field
+        action: click
+      - command: type
+        text: testuser
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: password123
+      - command: hover-text
+        text: Log In
+        description: log in button on the login page
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Continue with Google
+        description: Google login option on the login page
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field in Google login
+        action: click
+      - command: type
+        text: testemail@gmail.com
+      - command: hover-text
+        text: Next
+        description: next button in Google login
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field in Google login
+        action: click
+      - command: type
+        text: validemail@gmail.com
+      - command: hover-text
+        text: Next
+        description: next button in Google login
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field in Google login
+        action: click
+      - command: type
+        text: validemail@gmail.com
+      - command: hover-text
+        text: Next
+        description: next button in Google login
+        action: click
+  - prompt: Attempt to access the webpage from a restricted network.
+    commands:
+      - command: hover-text
+        text: Email or phone
+        description: email input field in Google login
+        action: click
+      - command: type
+        text: validemail@gmail.com
+      - command: hover-text
+        text: Next
+        description: next button in Google login
+        action: click
