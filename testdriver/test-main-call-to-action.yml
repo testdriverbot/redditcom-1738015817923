@@ -1,0 +1,24 @@
+version: 4.1.43
+steps:
+  - prompt: Identify the main call to action button on the webpage.
+    commands:
+      - command: hover-text
+        text: Log in
+        description: main call to action button for logging in
+        action: hover
+      - command: hover-text
+        text: File a ticket
+        description: secondary call to action button for filing a ticket
+        action: hover
+  - prompt: Click on the main call to action button.
+    commands:
+      - command: hover-text
+        text: Log in
+        description: main call to action button for logging in
+        action: click
+  - prompt: >-
+      Assert that the corresponding action or page is triggered without errors. 
+      # Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: Log In page is displayed
